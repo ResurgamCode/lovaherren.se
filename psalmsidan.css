@@ -1,0 +1,261 @@
+body {
+	background-color: rgb(30, 42, 85);
+	font-family: Helvetica Neue, sans-serif;
+	line-height: 1.3em;
+}
+
+p,
+label {
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+	font-size: 1.3rem;
+	line-height: 1.4;
+}
+
+#top {
+	width: 60%;
+	margin: 0 20%;
+	padding-top: 50px;
+}
+
+a#toplink {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#content,
+#footer {
+	margin: 10px auto;
+	background-color: white;
+	width: 60%;
+	max-width: 500px;
+}
+
+#content-inner,
+#footer-inner {
+	padding: 20px 20px;
+	background: #edf6fd;
+}
+
+#logga {
+	width: 200px;
+}
+
+#toptext {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#toptext,
+#subtitle {
+	color: white;
+}
+#subtitle {
+	font-size: 24px;
+}
+
+#copynote {
+	font-size: 0.9em;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+#section {
+	width: 100%;
+	text-align: right;
+	color: #666;
+}
+
+#text {
+	margin: 10px 0 30px 0;
+}
+
+#credits {
+	color: #666;
+	font-size: 0.9em;
+}
+
+a {
+	color: #555;
+}
+
+a:visited {
+	color: #aaa;
+}
+
+ul#psalmlista {
+	clear: both;
+}
+
+#psalmernaHeader {
+	padding-top: 20px;
+	clear: both;
+}
+
+ul#psalmlista li {
+	list-style-type: none;
+	margin: 8px 0;
+}
+
+.shortcut {
+	float: left;
+	padding: 5px 10px;
+}
+#menu {
+	height: 30px;
+	background-color: rgb(30, 42, 85);
+	padding: 0px 20%;
+}
+
+.menu {
+	float: left;
+	padding: 5px 15px;
+	color: white;
+}
+
+#jag {
+	width: 80%;
+	max-width: 400px;
+	margin: 10px 0;
+}
+
+.appbutton {
+	width: calc(50% - 20px);
+	max-width: 150px;
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
+h2 {
+	clear: both;
+}
+
+@media all and (min-width: 1000px) {
+	#content,
+	#footer {
+		max-width: 800px;
+	}
+
+	#content-inner {
+		padding: 50px 100px 100px 100px;
+	}
+	#footer-inner {
+		padding: 20px 100px;
+	}
+}
+
+@media all and (min-width: 1300px) {
+	#content-inner {
+		padding: 50px 200px 100px 100px;
+	}
+}
+
+@media all and (max-width: 800px) {
+	#menu {
+		height: 70px;
+	}
+}
+
+@media all and (max-width: 699px) {
+	#subtitle {
+		font-size: 22px;
+	}
+	#toptext {
+		font-size: 37px;
+	}
+}
+
+@media all and (max-width: 599px) {
+	#top {
+		margin: 0 5%;
+	}
+	#menu {
+		padding: 0 5%;
+	}
+	#content,
+	#footer {
+		margin: 20px auto;
+		width: 90%;
+	}
+	#logga {
+		width: 100px;
+	}
+	#subtitle {
+		font-size: 20px;
+	}
+	#toptext {
+		font-size: 35px;
+	}
+}
+
+@media all and (max-width: 349px) {
+	#subtitle {
+		font-size: 15px;
+	}
+	#toptext {
+		font-size: 28px;
+	}
+}
+
+#footer {
+	margin-top: 100px;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+.prices {
+	width: 30em;
+}
+
+.prices .row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+}
+
+.prices p {
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+
+form p {
+	margin-top: 5px;
+	margin-bottom: 13px;
+}
+
+form label {
+	font-size: 1.2rem;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	margin-top: 1px;
+	border: none;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+form .row {
+	display: flex;
+	margin: 5px 0;
+}
+
+form .row input {
+	display: inline-block;
+	width: 6ch;
+	margin-right: 10px;
+}
+
+form button {
+	margin-top: 30px;
+	font-size: 1.5rem;
+	background: rgb(30, 42, 85);
+	border: 0;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
