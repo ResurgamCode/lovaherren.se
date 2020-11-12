@@ -112,19 +112,19 @@
 				<p>
 					<label for="adress">
 						Adress
-						<input type="text" id="adress" name="adress" autocomplete="shipping street-address" required>
+						<input type="text" id="adress1" name="adress1" autocomplete="shipping street-address" required>
 					</label>
 				</p>
 				<p>
 					<label for="adress">
 						Postkod
-						<input type="text" id="adress" name="adress" autocomplete="shipping postal-code" required>
+						<input type="text" id="adress2" name="adress2" autocomplete="shipping postal-code" required>
 					</label>
 				</p>
 				<p>
 					<label for="adress">
 						Postort
-						<input type="text" id="adress" name="adress" autocomplete="shipping locality" required>
+						<input type="text" id="adress3" name="adress3" autocomplete="shipping locality" required>
 					</label>
 				</p>
 				<p>
